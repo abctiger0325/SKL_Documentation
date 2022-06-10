@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Tue Apr 12 11:03:43 2022
+# Process ID: 30411
+# Current directory: /home/labish/Midget/SKL/FPGA_Flash_BKUP/Notion_DEMO.runs/synth_1
+# Command line: vivado -log DEMO_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source DEMO_wrapper.tcl
+# Log file: /home/labish/Midget/SKL/FPGA_Flash_BKUP/Notion_DEMO.runs/synth_1/DEMO_wrapper.vds
+# Journal file: /home/labish/Midget/SKL/FPGA_Flash_BKUP/Notion_DEMO.runs/synth_1/vivado.jou
+# Running On: labish-OptiPlex-9010, OS: Linux, CPU Frequency: 3792.496 MHz, CPU Physical cores: 4, Host memory: 33553 MB
+#-----------------------------------------------------------
+source DEMO_wrapper.tcl -notrace

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="DEMO_LED_Connector_v1_0_0_0_synth_1" LaunchDir="/home/labish/Midget/SKL/FPGA_Flash_BKUP/Notion_DEMO.runs/DEMO_LED_Connector_v1_0_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="DEMO_PL_SPI_DDS_v1_0_0_0_synth_1" LaunchDir="/home/labish/Midget/SKL/FPGA_Flash_BKUP/Notion_DEMO.runs/DEMO_PL_SPI_DDS_v1_0_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="DEMO_xbar_0_synth_1" LaunchDir="/home/labish/Midget/SKL/FPGA_Flash_BKUP/Notion_DEMO.runs/DEMO_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="DEMO_rst_ps7_0_50M_0_synth_1" LaunchDir="/home/labish/Midget/SKL/FPGA_Flash_BKUP/Notion_DEMO.runs/DEMO_rst_ps7_0_50M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="DEMO_auto_pc_0_synth_1" LaunchDir="/home/labish/Midget/SKL/FPGA_Flash_BKUP/Notion_DEMO.runs/DEMO_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="/home/labish/Midget/SKL/FPGA_Flash_BKUP/Notion_DEMO.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="DEMO_LED_Connector_v1_0_0_0_synth_1"/>
+		<Parent Id="DEMO_PL_SPI_DDS_v1_0_0_0_synth_1"/>
+		<Parent Id="DEMO_xbar_0_synth_1"/>
+		<Parent Id="DEMO_rst_ps7_0_50M_0_synth_1"/>
+		<Parent Id="DEMO_auto_pc_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+
